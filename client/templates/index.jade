@@ -1,38 +1,13 @@
 .row-fluid
+  .span4.well
+      h3 #{player.username}
+      p Health: #{player.health}
+      p Food: #{player.food}
 
-  .span2
-    .well.sidebar-nav
-      ul.nav.nav-list
-        li.nav-header Navigation
-        li: a Test
-
-  .span10
-    .hero-unit
-      h1 #{message}
-      p ^ This message is from the server
-
+  .span6.well
     .row-fluid
-      .well.span4
-        h2 Test
-        p Testing
-
-      .well.span4
-        h2 Test
-        p Testing
-
-      .well.span4
-        h2 Test
-        p Testing
-
+      #chatbox.span12
+    br
     .row-fluid
-      .well.span4
-        h2 Test
-        p Testing
-
-      .well.span4
-        h2 Test
-        p Testing
-
-      .well.span4
-        h2 Test
-        p Testing
+      input#chatInput.span10(type="text", name="chat", placeholder="Enter a message")
+      input.btn.span2.pull-right#chatSend(type="button", value="Send")

@@ -4,7 +4,9 @@
   "dependencies":{
     "coffee-script":"*",
     "express":"*",
-    "vein":"*"
+    "vein":"*",
+    "pulsar":"*",
+    "minebot":"*"
   },
   "devDependencies": {
     "jaded": "*",
